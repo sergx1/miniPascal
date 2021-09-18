@@ -1,8 +1,8 @@
 pocetak
-  i := 1;
-  dok_je i < 10 radi_sledece:
+  i := 2;
+  dok_je i < 20 radi_sledece:
     pocetak
       ispisi(i);
-      i := i + 1
+      i := i + 2
     kraj
 kraj.
