@@ -1,0 +1,7 @@
+pocetak
+  unesi(i);
+  ako_je i > 10 onda:
+    ispisi("Broj je veci od 10")
+  inace:
+    ispisi("Broj je manji od 10")
+kraj.
