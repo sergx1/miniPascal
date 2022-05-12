@@ -54,7 +54,7 @@ using namespace std;
 
 [-+*/();.:<>] 	return *yytext;
 
-[\t\n ] { }
+[\t\n\r ] { }
 
 . {
 	cerr << "Leksicka greska, neprepoznat karakter: " << *yytext << endl;
